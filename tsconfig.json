@@ -1,0 +1,34 @@
+{
+  "compilerOptions"                     :
+  {
+    "target"                            : "ES5",
+    "module"                            : "ES2015",
+    "sourceMap"                         : true,
+    "allowSyntheticDefaultImports"      : true,
+    "esModuleInterop"                   : true,
+    "moduleResolution"                  : "node",
+    "experimentalDecorators"            : true,
+    "jsx"                               : "react-native", 
+    "noImplicitThis"                    : true,
+    "noFallthroughCasesInSwitch"        : true,
+    "noImplicitAny"                     : true,
+    "lib"                               : 
+    [
+      "DOM",
+      "es2020"
+    ],
+    "paths"                             : 
+    {
+
+    }
+  },
+  "include": 
+  [
+      "./__in/ts/**/*.ts",
+      "./__in/ts/**/*.tsx"
+  ],
+  "exclude"                             :
+  [
+    "./node_modules"
+  ]
+}
